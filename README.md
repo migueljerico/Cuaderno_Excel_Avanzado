@@ -140,15 +140,6 @@ cd Cuaderno_Excel_Avanzado
 | `Exportar_Reporte_PDF` | Genera PDF del tablero activo con marca de agua | `Alt + F8` > Seleccionar macro > Ejecutar |
 | `IniciarProcesamiento` | Coordinación del flujo principal de automatización | `Alt + F8` > Seleccionar macro > Ejecutar |
 
-### Uso de Funciones Personalizadas (UDF)
-
-Las funciones personalizadas se utilizan directamente en las celdas como cualquier fórmula nativa:
-
-```excel
-=CALCULAR_PROYECCION_FINANCIERA(monto_base; tasa_anual; periodos)
-=BUSCAR_RECURSIVO_TABLA(rango_tabla; criterio; columna_retorno)
-=BUSCAR_REGEX(texto; patron_regex)
-```
 
 ### Refresco de Power Query
 
@@ -161,21 +152,15 @@ Las funciones personalizadas se utilizan directamente en las celdas como cualqui
 
 ```
 Cuaderno_Excel_Avanzado/
-├── README.md                    # Documentación principal
-├── MANUAL_TECNICO.md            # Manual técnico detallado
-├── screenshots/                 # Capturas de pantalla
+├── README.md                    
+├── MANUAL_TECNICO.md            
+├── Cuaderno_Ejercicios_Excel_Avanzado_Miguel_Jerico.pdf
+├── Pruebas de Excel Miguel 07052026.xlsm
+├── screenshots/                
 │   ├── Captura_Excel_1.png
 │   ├── Captura_Excel_2.png
 │   └── Captura_Excel_3.png
-├── mod_Main_Automation.bas      # Coordinación de macros principal
-├── mod_Data_ETL.bas             # Automatización ETL e ingesta de datos
-├── mod_Custom_UDF.bas           # Biblioteca de funciones UDF
-├── cls_Logger.cls               # Control de logs y manejo de errores
-├── PowerQuery_Queries/          # Definiciones M de Power Query
-└── Templates/                   # Plantillas y hojas estructuradas
-    ├── Dashboards/
-    ├── DataStore/
-    └── Config/
+
 ```
 
 ---
@@ -205,27 +190,6 @@ Cuaderno_Excel_Avanzado/
 - [ ] Plantillas de modelos financieros sectoriales
 - [ ] Sistema de versionado semántico de plantillas
 
----
-
-## 🤝 Contribución
-
-Las contribuciones son bienvenidas. Si deseas aportar mejoras, nuevos modelos o corregir errores:
-
-1. **Fork** el repositorio.
-2. Crea una rama con tu funcionalidad: `git checkout -b feature/nueva-funcionalidad`.
-3. Realiza tus cambios y haz commit: `git commit -m 'feat: añade nueva funcionalidad'`.
-4. Sube los cambios: `git push origin feature/nueva-funcionalidad`.
-5. Abre un **Pull Request** describiendo los cambios.
-
-### 📌 Convenciones de commits
-
-| Prefijo | Uso |
-| :--- | :--- |
-| `feat:` | Nueva funcionalidad |
-| `fix:` | Corrección de errores |
-| `docs:` | Cambios en documentación |
-| `refactor:` | Refactorización de código |
-| `perf:` | Mejoras de rendimiento |
 
 ---
 
@@ -241,6 +205,10 @@ Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](./LI
 
 - GitHub: [@migueljerico](https://github.com/migueljerico)
 - Repositorio: [Cuaderno_Excel_Avanzado](https://github.com/migueljerico/Cuaderno_Excel_Avanzado)
+
+---
+
+<p align="center">Creado por <a href="https://github.com/migueljerico">@migueljerico</a> y documentado por QwenCloud (deepseek-v4-flash-0731) desde la App Asistente de IA · 2026</p>
 
 ---
 
