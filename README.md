@@ -9,6 +9,21 @@
 
 ---
 
+## 📸 Vista Previa del Cuaderno de Excel
+
+A continuación se muestran algunas capturas de pantalla con los ejercicios, funciones dinámicas y herramientas analíticas del proyecto:
+
+### 1. Funciones y Buscadores
+![Captura de pantalla Excel 1](./screenshots/Captura_Excel_1.png)
+
+### 2. Tablas y Consultas
+![Captura de pantalla Excel 2](./screenshots/Captura_Excel_2.png)
+
+### 3. Automatización y Resultados
+![Captura de pantalla Excel 3](./screenshots/Captura_Excel_3.png)
+
+---
+
 ## 🔗 Acceso / Demo
 
 Puedes acceder al repositorio directamente en GitHub para explorar los libros de trabajo, scripts y plantillas:
@@ -64,43 +79,7 @@ Para utilizar los cuadernos de trabajo y ejecutar los scripts de automatización
 
 ## 🚀 Uso
 
-### Ejemplo 1: Automatización VBA para Limpieza de Datos
-
-Puedes importar el módulo `LimpiezaDatos.bas` en el editor de VBA (`ALT + F11`) para ejecutar la siguiente rutina optimizada:
-
-```vba
-Public Sub LimpiarYEstructurarDatos()
-    Dim ws As Worksheet
-    Set ws = ActiveSheet
-    
-    Application.ScreenUpdating = False
-    Application.Calculation = xlCalculationManual
-    
-    On Error GoTo ErrorHandler
-    
-    ' Eliminar filas en blanco y formatear encabezados
-    With ws.UsedRange
-        .RemoveDuplicates Columns:=Array(1), Header:=xlYes
-        .Rows(1).Font.Bold = True
-        .Rows(1).Interior.Color = RGB(33, 115, 70) ' Verde Excel
-        .Rows(1).Font.Color = RGB(255, 255, 255)
-        .Columns.AutoFit
-    End With
-    
-    MsgBox "Proceso de limpieza completado con éxito.", vbInformation, "Excel Avanzado 2026"
-
-CleanExit:
-    Application.ScreenUpdating = True
-    Application.Calculation = xlCalculationAutomatic
-    Exit Sub
-
-ErrorHandler:
-    MsgBox "Error " & Err.Number & ": " & Err.Description, vbCritical, "Error en Proceso"
-    Resume CleanExit
-End Sub
-```
-
-### Ejemplo 2: Consulta de Matriz Dinámica para Reportes Filtro
+### Ejemplo: Consulta de Matriz Dinámica para Reportes Filtro
 
 Uso de fórmulas dinámicas en Excel para la extracción en tiempo real de registros sin macros:
 
@@ -118,14 +97,6 @@ Cuaderno_Excel_Avanzado/
 ├── docs/
 │   ├── Guia_Formulas_Matriciales.pdf
 │   └── Manual_PowerQuery_ETL.pdf
-├── macros/
-│   ├── LimpiezaDatos.bas
-│   ├── GeneradorReportes.bas
-│   └── ExportadorPDF.bas
-├── modelos/
-│   ├── Dashboard_Ejecutivo.xlsx
-│   ├── Modelo_Financiero_Proyectado.xlsx
-│   └── Analisis_Ventas_PowerPivot.xlsx
 └── plantillas/
     ├── Plantilla_ETL_PowerQuery.xlsx
     └── Plantilla_Formulario_VBA.xlsm
