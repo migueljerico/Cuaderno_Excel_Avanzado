@@ -84,8 +84,6 @@ Diseñado con un enfoque práctico y corporativo, el cuaderno abarca desde la fo
 | **Transformación ETL (Power Query)** | Limpieza, unificación y estructuración automatizada de fuentes de datos heterogéneas (CSV, SQL, Web, JSON). |
 | **Dashboards e Indicadores (KPIs)** | Diseños de tableros ejecutivos con segmentadores de datos, gráficos dinámicos y controles de formulario. |
 | **Auditoría y Optimización** | Buenas prácticas para reducir el tamaño de archivos, optimizar tiempos de cálculo y rastrear dependencias complejas. |
-| **Funciones Personalizadas (UDF)** | Biblioteca de funciones definidas por el usuario para cálculos no nativos (`CALCULAR_PROYECCION_FINANCIERA`, `BUSCAR_REGEX`). |
-| **Exportación Automatizada** | Generación y exportación de informes en PDF con marca de agua y formato corporativo. |
 
 ---
 
@@ -134,12 +132,8 @@ cd Cuaderno_Excel_Avanzado
 
 ### Ejecución de Macros principales
 
-| Macro | Descripción | Cómo ejecutarla |
-| :--- | :--- | :--- |
-| `Ejecutar_ETL_Consolidado` | Refresca datos, limpia tablas temporales y recalcula el modelo | `Alt + F8` > Seleccionar macro > Ejecutar |
-| `Exportar_Reporte_PDF` | Genera PDF del tablero activo con marca de agua | `Alt + F8` > Seleccionar macro > Ejecutar |
-| `IniciarProcesamiento` | Coordinación del flujo principal de automatización | `Alt + F8` > Seleccionar macro > Ejecutar |
-
+1. Pulsa `Alt + F8` 
+2. Haz clic en Ejecutar.
 
 ### Refresco de Power Query
 
