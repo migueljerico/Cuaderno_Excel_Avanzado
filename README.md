@@ -47,7 +47,7 @@ Diseñado con un enfoque práctico y corporativo, el cuaderno abarca desde la fo
 
 | Funcionalidad | Descripción |
 | :--- | :--- |
-| **Formulación Avanzada y Dinámica** | Implementación de `BUSCARX` (`XLOOKUP`), `INDICE/COINCIDIR`, y matrices dinámicas (`FILTRAR`, `UNICOS`, `ORDENAR`, `SELECCIONARCOLS`). |
+| **Formulación Avanzada y Dinámica** | Implementación de `BUSCARX` (`XLOOKUP`), `INDICE/COINCIDIR`, y matrices dinámicas (`FILTRAR`, `UNICOS`, `ORDENAR`, `ELEGIRCOLS`). |
 | **Automatización con VBA / Macros** | Módulos de código para automatizar generación de reportes, envío masivo de correos y validación de datos. |
 | **Modelado de Datos y DAX** | Creación de esquemas en estrella mediante Power Pivot e implementación de medidas calculadas con lenguaje DAX. |
 | **Transformación ETL (Power Query)** | Limpieza, unificación y estructuración automatizada de fuentes de datos heterogéneas (CSV, SQL, Web, JSON). |
