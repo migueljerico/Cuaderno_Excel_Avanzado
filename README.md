@@ -13,13 +13,13 @@
 
 A continuación se muestran algunas capturas de pantalla con los ejercicios, funciones dinámicas y herramientas analíticas del proyecto:
 
-### 1. Funciones y Buscadores
+### 1. SCAN Y DESREF
 ![Captura de pantalla Excel 1](./screenshots/Captura_Excel_1.png)
 
-### 2. Tablas y Consultas
+### 2. SCAN Y LAMBDA
 ![Captura de pantalla Excel 2](./screenshots/Captura_Excel_2.png)
 
-### 3. Automatización y Resultados
+### 3. FILTRAR Y ELEGIRCOLS
 ![Captura de pantalla Excel 3](./screenshots/Captura_Excel_3.png)
 
 ---
