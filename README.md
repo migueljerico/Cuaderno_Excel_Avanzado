@@ -208,7 +208,7 @@ Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](./LI
 
 ---
 
-<p align="center">Creado por <a href="https://github.com/migueljerico">@migueljerico</a> y documentado por QwenCloud (deepseek-v4-flash-0731) desde la App Asistente de IA · 2026</p>
+<p align="center">Creado por <a href="https://github.com/migueljerico">@migueljerico</a> y documentado por QwenCloud (GLM 5.2) desde la App Asistente de IA · 2026</p>
 
 ---
 
