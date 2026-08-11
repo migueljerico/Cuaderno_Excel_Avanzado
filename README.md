@@ -3,7 +3,6 @@
 ![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 ![VBA](https://img.shields.io/badge/VBA-Automation-1255CC?style=for-the-badge&logo=visual-basic&logoColor=white)
 ![Estado](https://img.shields.io/badge/Estado-Publicado_2026-brightgreen?style=for-the-badge)
-![Licencia](https://img.shields.io/badge/Licencia-MIT-orange?style=for-the-badge)
 
 *Recopilación técnica, modelos analíticos, fórmulas complejas y automatizaciones VBA para el dominio profesional de Microsoft Excel.*
 
