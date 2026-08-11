@@ -93,13 +93,11 @@ Uso de fórmulas dinámicas en Excel para la extracción en tiempo real de regis
 
 ```text
 Cuaderno_Excel_Avanzado/
+├── Cuaderno_Ejercicios_Excel_Avanzado_Miguel_Jerico.pdf
+├── MANUAL_TECNICO.md
+├── Pruebas de Excel Miguel 07052026.xlsm
 ├── README.md
-├── docs/
-│   ├── Guia_Formulas_Matriciales.pdf
-│   └── Manual_PowerQuery_ETL.pdf
-└── plantillas/
-    ├── Plantilla_ETL_PowerQuery.xlsx
-    └── Plantilla_Formulario_VBA.xlsm
+
 ```
 
 ---
