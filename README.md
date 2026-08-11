@@ -116,6 +116,6 @@ Cuaderno_Excel_Avanzado/
 
 Este repositorio fue creado por **[@migueljerico](https://github.com/migueljerico)** con el propósito de servir como bitácora de aprendizaje y cuaderno de referencia técnica para el manejo profesional de Microsoft Excel. 
 
-El contenido recopila soluciones prácticas a problemas complejos de inteligencia de negocios a nivel departamental, sirviendo tanto de guía formativa como de biblioteca de código reusable (módulos `.bas` y modelos `.xlsx`) para proyectos de análisis de datos e ingeniería financiera.
+El contenido recopila soluciones prácticas a problemas complejos de inteligencia de negocios a nivel departamental, sirviendo tanto de guía formativa como de biblioteca de código reusable (modelos `.xlsx`) para proyectos de análisis de datos e ingeniería financiera.
 
 <p align="center">Creado por <a href="https://github.com/migueljerico">@migueljerico</a> y documentado por Google Gemini (gemini-3.6-flash) desde la App Asistente de IA · 2026</p>
