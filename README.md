@@ -6,7 +6,7 @@
 ![Power Pivot](https://img.shields.io/badge/Power_Pivot-DAX-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Estado](https://img.shields.io/badge/Estado-Publicado_2026-brightgreen?style=for-the-badge)
 ![Licencia](https://img.shields.io/badge/Licencia-MIT-blue?style=for-the-badge)
-![Version](https://img.shields.io/badge/Versi%C3%B3n-2.0.0-orange?style=for-the-badge)
+![Version](https://img.shields.io/badge/Versi%C3%B3n-1.0.0-orange?style=for-the-badge)
 
 > *Recopilación técnica, modelos analíticos, fórmulas complejas y automatizaciones VBA para el dominio profesional de Microsoft Excel.*
 
